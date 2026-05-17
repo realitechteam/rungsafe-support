@@ -3,64 +3,21 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>RungSafe — Hỗ trợ & Quyền riêng tư</title>
-<meta name="description" content="Trang hỗ trợ và chính sách quyền riêng tư của ứng dụng RungSafe — app đi rừng an toàn." />
-<style>
-  :root {
-    --green-d: #143726;
-    --green: #2f6b4f;
-    --green-l: #6f9b74;
-    --bg: #fbfaf7;
-    --card: #ffffff;
-    --text: #1a1a1a;
-    --muted: #5b6b60;
-    --border: #e6e8e2;
-  }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
-    background: var(--bg); color: var(--text); line-height: 1.65;
-  }
-  .hero {
-    background: linear-gradient(160deg, #163a2b, #2f6b4f);
-    color: #fff; padding: 64px 24px 56px; text-align: center;
-  }
-  .logo { width: 86px; height: 110px; margin: 0 auto 18px; display: block; }
-  .hero h1 { font-size: 38px; font-weight: 800; letter-spacing: -0.5px; }
-  .hero p { color: #cfe6d6; font-size: 16px; margin-top: 8px; }
-  main { max-width: 720px; margin: -28px auto 0; padding: 0 20px 64px; }
-  .card {
-    background: var(--card); border: 1px solid var(--border);
-    border-radius: 18px; padding: 28px; margin-bottom: 20px;
-    box-shadow: 0 8px 24px rgba(20,55,38,.06);
-  }
-  h2 { font-size: 20px; color: var(--green-d); margin-bottom: 14px; }
-  h3 { font-size: 16px; margin: 18px 0 4px; color: var(--text); }
-  p, li { color: var(--muted); font-size: 15px; }
-  ul { padding-left: 20px; margin: 6px 0; }
-  a { color: var(--green); font-weight: 600; }
-  .btn {
-    display: inline-block; background: var(--green); color: #fff;
-    padding: 12px 22px; border-radius: 999px; text-decoration: none;
-    font-weight: 700; margin-top: 8px;
-  }
-  .muted-note { font-size: 13px; color: var(--muted); }
-  footer {
-    text-align: center; padding: 32px 20px 48px;
-    color: var(--muted); font-size: 13px;
-  }
-  .tag {
-    display: inline-block; background: #e8f1ea; color: var(--green-d);
-    border-radius: 999px; padding: 4px 12px; font-size: 12px;
-    font-weight: 700; margin-bottom: 10px;
-  }
-</style>
+<title>RungSafe — App đi rừng an toàn</title>
+<meta name="description" content="RungSafe — bộ công cụ sinh tồn cho người đi rừng: đèn pin, SOS, Morse, la bàn, GPS, thời tiết, còi báo động. Miễn phí, vì cộng đồng." />
+<link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <nav>
+    <span class="brand">🌲 RungSafe</span>
+    <a href="index.html" class="active">Trang chủ</a>
+    <a href="support.html">Hỗ trợ</a>
+    <a href="privacy.html">Quyền riêng tư</a>
+  </nav>
+
   <header class="hero">
     <svg class="logo" viewBox="236 146 552 742" xmlns="http://www.w3.org/2000/svg">
-      <path d="M512 170C640 250 760 250 760 250V470C760 650 645 790 512 860C379 790 264 650 264 470V250C264 250 384 250 512 170Z"
-            fill="none" stroke="#ffffff" stroke-width="26" stroke-linejoin="round"/>
+      <path d="M512 170C640 250 760 250 760 250V470C760 650 645 790 512 860C379 790 264 650 264 470V250C264 250 384 250 512 170Z" fill="none" stroke="#ffffff" stroke-width="26" stroke-linejoin="round"/>
       <path d="M512 348 L604 486 L420 486 Z" fill="#fff"/>
       <path d="M512 432 L634 576 L390 576 Z" fill="#fff"/>
       <path d="M512 520 L664 672 L360 672 Z" fill="#fff"/>
@@ -68,54 +25,47 @@
     </svg>
     <h1>RungSafe</h1>
     <p>Người bạn đồng hành trên mọi cung đường rừng</p>
+    <span class="soon">Sắp ra mắt trên App Store</span>
   </header>
 
   <main>
     <div class="card">
-      <span class="tag">HỖ TRỢ</span>
-      <h2>Cần giúp đỡ?</h2>
-      <p>RungSafe là ứng dụng hỗ trợ đi rừng: đèn pin, tín hiệu SOS &amp; Morse, la bàn, GPS, thời tiết, còi báo động và nhật ký hành trình. Nếu bạn gặp lỗi, có góp ý hoặc câu hỏi, hãy liên hệ trực tiếp với nhóm phát triển.</p>
-      <a class="btn" href="mailto:dat.nguyen@realitech.vn?subject=RungSafe%20-%20Hỗ%20trợ">Gửi email hỗ trợ</a>
-      <p class="muted-note" style="margin-top:12px;">Email: <a href="mailto:dat.nguyen@realitech.vn">dat.nguyen@realitech.vn</a> · Phản hồi trong 1–3 ngày làm việc.</p>
+      <span class="tag">GIỚI THIỆU</span>
+      <h2>Bộ công cụ sinh tồn trong túi bạn</h2>
+      <p>RungSafe là ứng dụng hỗ trợ toàn diện cho người đi rừng, leo núi, trekking và cắm trại tại Việt Nam. Mọi tính năng chạy ngay trên điện thoại — nhiều tính năng dùng được cả khi không có sóng.</p>
     </div>
 
     <div class="card">
-      <h2>Câu hỏi thường gặp</h2>
-
-      <h3>Đèn pin không bật được?</h3>
-      <p>RungSafe điều khiển đèn flash qua camera của máy. Lần đầu dùng, hãy cấp quyền Camera khi ứng dụng hỏi. Nếu đã từ chối, vào Cài đặt &rarr; RungSafe &rarr; bật lại quyền Camera.</p>
-
-      <h3>Tọa độ GPS bị sai hoặc không hiện?</h3>
-      <p>GPS cần quyền Vị trí và có thể kém chính xác dưới tán rừng rậm, trong hẻm núi hoặc khi pin yếu. Hãy ra khu vực thoáng và đợi vài giây để máy định vị lại.</p>
-
-      <h3>Ứng dụng có tốn phí không?</h3>
-      <p>Không. RungSafe miễn phí 100%, không quảng cáo, không mua trong ứng dụng. Đây là dự án phi lợi nhuận vì cộng đồng.</p>
-
-      <h3>Whistle 17kHz không nghe thấy gì?</h3>
-      <p>Đây là âm tần số cao — tai người trưởng thành nghe rất nhỏ hoặc không nghe. Một số loa điện thoại cũng không tái tạo được dải này. Bạn có thể chọn tần số thấp hơn (12kHz) trong màn hình Còi.</p>
-
-      <h3>Gọi 113/114/115 không được?</h3>
-      <p>Các nút gọi khẩn cấp cần sóng di động và SIM hoạt động. Ở vùng sâu không có sóng, các tính năng này có thể không khả dụng — hãy luôn chuẩn bị phương án dự phòng.</p>
+      <h2>Tính năng</h2>
+      <div class="features">
+        <div class="feature"><div class="ico">🔦</div><b>Đèn pin</b><span>Sáng, nháy chậm/nhanh, strobe</span></div>
+        <div class="feature"><div class="ico">🆘</div><b>SOS</b><span>Nhấn giữ phát tín hiệu cứu hộ</span></div>
+        <div class="feature"><div class="ico">•••</div><b>Morse</b><span>Gõ chữ → nháy đèn theo mã Morse</span></div>
+        <div class="feature"><div class="ico">🧭</div><b>La bàn</b><span>Định hướng chính xác</span></div>
+        <div class="feature"><div class="ico">📍</div><b>Chia sẻ tọa độ</b><span>Gửi vị trí GPS khi cần cứu hộ</span></div>
+        <div class="feature"><div class="ico">⛅</div><b>Thời tiết</b><span>Dự báo, giờ mặt trời mọc/lặn</span></div>
+        <div class="feature"><div class="ico">📞</div><b>Gọi cấp cứu</b><span>113/114/115/112 — 911 ở US</span></div>
+        <div class="feature"><div class="ico">📓</div><b>Nhật ký hành trình</b><span>Ghi lộ trình, hướng quay về</span></div>
+      </div>
     </div>
 
     <div class="card">
-      <span class="tag">QUYỀN RIÊNG TƯ</span>
-      <h2>Chính sách quyền riêng tư</h2>
-      <p>RungSafe được thiết kế để <strong>không thu thập dữ liệu cá nhân</strong>.</p>
-      <ul>
-        <li><strong>Không tài khoản:</strong> ứng dụng không yêu cầu đăng ký hay đăng nhập.</li>
-        <li><strong>Vị trí (GPS):</strong> dùng để hiển thị tọa độ, la bàn, thời tiết và để bạn chủ động chia sẻ vị trí khi cần cứu hộ. Dữ liệu vị trí <strong>chỉ lưu trên thiết bị của bạn</strong>, không gửi lên máy chủ nào.</li>
-        <li><strong>Camera:</strong> chỉ dùng để bật/tắt đèn flash (chế độ torch). Ứng dụng <strong>không chụp ảnh, không quay video</strong>.</li>
-        <li><strong>Không quảng cáo, không phân tích, không bên thứ ba:</strong> RungSafe không tích hợp SDK quảng cáo hay theo dõi nào.</li>
-        <li><strong>Chia sẻ &amp; SMS:</strong> khi bạn bấm chia sẻ tọa độ, nội dung chỉ được gửi qua ứng dụng bạn tự chọn (Tin nhắn, Zalo…). Tác giả không nhận được dữ liệu này.</li>
-      </ul>
-      <p style="margin-top:10px;">Nhật ký hành trình (breadcrumb) được lưu cục bộ trên máy và bạn có thể xóa bất cứ lúc nào trong tab Nhật ký.</p>
+      <h2>Giao diện</h2>
+      <div class="shots">
+        <img src="shot-1.png" alt="RungSafe — màn hình chào" />
+        <img src="shot-2.png" alt="RungSafe — trang chủ" />
+        <img src="shot-3.png" alt="RungSafe — đèn pin" />
+        <img src="shot-4.png" alt="RungSafe — SOS" />
+      </div>
     </div>
 
     <div class="card">
-      <span class="tag">AN TOÀN</span>
-      <h2>Tuyên bố từ chối trách nhiệm</h2>
-      <p>RungSafe là <strong>công cụ hỗ trợ</strong>, không thay thế dịch vụ cứu hộ chuyên nghiệp, trang thiết bị cứu sinh đạt chuẩn hay kỹ năng sinh tồn. Realitech Company Limited không chịu trách nhiệm cho thiệt hại phát sinh do tin tưởng vào phần mềm này. GPS có thể sai số trong rừng rậm; số khẩn cấp cần sóng di động. Luôn mang theo bản đồ giấy, la bàn cơ và báo người thân lộ trình trước khi đi.</p>
+      <span class="tag">VÌ CỘNG ĐỒNG</span>
+      <h2>Miễn phí, không quảng cáo</h2>
+      <p>RungSafe là sản phẩm công nghệ của Realitech Company Limited, phát hành miễn phí nhằm hỗ trợ cộng đồng đi rừng. Không quảng cáo, không thu thập dữ liệu cá nhân — tọa độ GPS chỉ lưu trên máy bạn.</p>
+      <p style="margin-top:10px;">
+        <a href="support.html">Trang hỗ trợ →</a>　·　<a href="privacy.html">Chính sách quyền riêng tư →</a>
+      </p>
     </div>
   </main>
 
